@@ -1,6 +1,7 @@
 import React from 'react'
 
-import { Col, Container, Row} from 'react-bootstrap'
+import { Container, Row } from 'react-bootstrap'
+import ServiceCard from './ServiceCard'
 
 
 function SectionTwo() {
@@ -10,67 +11,19 @@ function SectionTwo() {
                 <Container>
                     <h1 className="text-center ">Services</h1>
                     <Row>
-                        <Col md={4} my={2}>
-                            <div className="card text-center p-3 bg-white" >
-                                <i className="fas fa-business-time display-1"></i>
-                                <div className="card-body">
-                                    <h5 className="Marketting font-weight-bold">Content Marketing</h5>
-                                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                </div>
-                            </div>
-                        </Col>
-                        <Col md={4} my={2}>
-                            <div className="card text-center p-3 bg-white" >
-                                <i className="fas fa-business-time display-1"></i>
-                                <div className="card-body">
-                                    <h5 className="Marketting font-weight-bold">Content Marketing</h5>
-                                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                </div>
-                            </div>
-                        </Col>
-                        <Col md={4} my={2}>
-                            <div className="card text-center p-3 bg-white" >
-                                <i className="fas fa-business-time display-1"></i>
-                                <div className="card-body">
-                                    <h5 className="Marketting font-weight-bold">Content Marketing</h5>
-                                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                </div>
-                            </div>
-                        </Col>
+                        <ServiceCard value={'Freelancer'}></ServiceCard>
+                        <ServiceCard value={'Web Appliction'}></ServiceCard>
+                        <ServiceCard value={'Freelancer'}></ServiceCard>
                     </Row>
                 </Container>
-                </section>
-                    <section id="exp-section">
+            </section>
+            <section id="exp-section">
                 <Container className="container p-3">
-                    <h1 className="text-center ">Services</h1>
+                    <h1 className="text-center ">Experience</h1>
                     <Row>
-                        <Col md={4} my={2}>
-                            <div className="card text-center p-3 bg-white" >
-                                <i className="fas fa-business-time display-1"></i>
-                                <div className="card-body">
-                                    <h5 className="Marketting font-weight-bold">Content Marketing</h5>
-                                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                </div>
-                            </div>
-                        </Col>
-                        <Col md={4} my={2}>
-                            <div className="card text-center p-3 bg-white" >
-                                <i className="fas fa-business-time display-1"></i>
-                                <div className="card-body">
-                                    <h5 className="Marketting font-weight-bold">Content Marketing</h5>
-                                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                </div>
-                            </div>
-                        </Col>
-                        <Col md={4} my={2}>
-                            <div className="card text-center p-3 bg-white" >
-                                <i className="fas fa-business-time display-1"></i>
-                                <div className="card-body">
-                                    <h5 className="Marketting font-weight-bold">Content Marketing</h5>
-                                    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                </div>
-                            </div>
-                        </Col>
+                        <ServiceCard value={'Instagram Service'}></ServiceCard>
+                        <ServiceCard value={'Demo'}></ServiceCard>
+                        <ServiceCard value={'Demo'}></ServiceCard>
                     </Row>
                 </Container>
             </section>
